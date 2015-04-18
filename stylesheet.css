@@ -162,17 +162,71 @@ section {
 /*******************
         Pricing
 ********************/
-
 .pricing {
-  height: 450px;
+  height: auto;
   background-color: #1abc9c;
+  text-align: center;
 }
 
+.iphone-parent {
+  text-align: center;
+  display: inline-block;
+  width: 600px;
+  height: auto;
+}
 
+.iphone {
+  background: url('img/iphone.png') center center no-repeat;
+  width: 100%;
+  height: 500px;
+}
 
+.price-parent {
+  text-align: center;
+  width: 300px;
+  height: auto;
+}
 
+.price {
+  display: inline-block;
+  margin-top: 100px;
+}
 
+.price p {
+  color: white;
+  font-size: 42px;
+}
 
+.button-container {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
 
+.iphone-button-parent {
+  text-align: center;
+  width: 30%;
+  height: 100px;
+}
+
+.iphone-button {
+  background: url('img/apple.png') center center no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.android-button-parent {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  height: 100px;
+}
+
+.android-button {
+  background: url('img/android.png') center center no-repeat;
+  width: 100%;
+  height: 100%;
+}
 
 
