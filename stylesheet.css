@@ -65,8 +65,8 @@ header {
   background: url('img/logo.svg') center no-repeat;
   float: left;
   margin-left: 20px;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
 }
 
 nav {
@@ -75,7 +75,7 @@ nav {
   text-align: right;
   position: fixed;
   padding-top: 10px;
-  background-color: #1abc9c;
+  background-color: #e74c3c;
 }
 
 nav ul li {
